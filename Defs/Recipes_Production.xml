@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+	<RecipeDef Name="MakePlasteelComponent">
+		<defName>MakePlasteelComponent</defName>
+		<recipeUsers>
+			<li>ComponentAssemblyBench</li>
+		</recipeUsers>
+		<label>make plasteel component</label>
+		<description>Make a component using plasteel.</description>
+		<jobString>Making component.</jobString>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>9000</workAmount>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<ingredients>
+		<li>
+			<filter>
+			<thingDefs>
+				<li>Plasteel</li>
+			</thingDefs>
+			</filter>
+			<count>25</count>
+		</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		<thingDefs>
+			<li>Plasteel</li>
+		</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+		<Component>1</Component>
+		</products>
+			<skillRequirements>
+				<li>
+					<skill>Crafting</skill>
+				<minLevel>10</minLevel>
+				</li>
+			</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+</RecipeDefs>
