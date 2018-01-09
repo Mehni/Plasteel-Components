@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 	<RecipeDef Name="MakePlasteelComponent">
 		<defName>MakePlasteelComponent</defName>
 		<recipeUsers>
@@ -11,7 +11,7 @@
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>9000</workAmount>
+		<workAmount>8000</workAmount>
 		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 		<ingredients>
 		<li>
@@ -31,12 +31,9 @@
 		<products>
 		<Component>1</Component>
 		</products>
-			<skillRequirements>
-				<li>
-					<skill>Crafting</skill>
-				<minLevel>10</minLevel>
-				</li>
-			</skillRequirements>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
-</RecipeDefs>
+</Defs>
